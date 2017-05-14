@@ -10,6 +10,16 @@
     <link rel="stylesheet" href="assets/css/scrolling-nav.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="https://use.fontawesome.com/9826ffb741.js"></script>
+  <script>
+  // See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
+    (function(){
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 <link href="styles.4e90a1573e7700dc771b.bundle.css" rel="stylesheet"/></head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <app-root>Loading...</app-root>
