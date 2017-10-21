@@ -1,9 +1,7 @@
 [
     {
         "name": "Neighborhood Map",
-        "description": ["Developed a web application featuring a neighborhood map with JavaScript.",
-            "Integrated Google Maps and Places API to enable search function.",
-            "Built with Knockout.js frameworks and Bootstrap."],
+        "description": ["Developed a web application featuring a neighborhood map with JavaScript that integrated Google Maps and Places API to enable search function; Built with Knockout.js frameworks and Bootstrap."],
         "date": "04/2017",
         "image": "assets/images/projects/neighbor.png",
         "source": "https://github.com/tiechengsu/Neighborhood-Map",
@@ -47,8 +45,7 @@
     },
     {
         "name": "Face Recognition in the Wild",
-        "description": ["Used fish vector to aggregate dense SIFT features into GMM.",
-        "Compressed fish vector by linear projection function and implemented SVM."],
+        "description": ["Developed a face recognition algorithm in Matlab with SIFT as feature; Implemented GMM, SVM to classify face image achieving 85% accuracy in 2k image database."],
         "date": "03/2016-05/2016",
         "image": "assets/images/projects/face2.png",
         "source": "https://github.com/tiechengsu/mv",
